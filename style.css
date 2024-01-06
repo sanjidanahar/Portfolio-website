@@ -1,0 +1,249 @@
+/* common shared style */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* nav related style */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background: #FD6E0A;
+    color: white;
+    font-size: 20px;
+    border: 0;
+    font-weight: 700;
+    padding: 15px 35px;
+}
+/* contact btn */
+.primary{
+    border-radius: 5px;
+    background: white;
+    color: #FD6E0A;
+    font-size: 20px;
+    border: 2px solid #FD6E0A;;
+    font-weight: 700;
+    padding: 15px 35px;
+}
+.nav-title {
+    color: var(--Dark-01, #181818);
+    font-family: Open Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal
+}
+
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #474747;
+}
+
+/* header related style */
+.header {
+    background-color: #FFF8F3;
+    background-image: url('portfolio-resources-main/portfolio-resources-main/images/header_bg.png'), url('portfolio-resources-main/portfolio-resources-main/images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, top left;
+
+}
+
+.banner {
+    padding: 30px 30px 0 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-contact {
+    max-width: 500px;
+}
+
+.banner .profile-pic {
+    width: 350px;
+    margin-right: 90px;
+}
+
+.banner-greeting {
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+}
+
+.banner-title {
+    font-size: 85px;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.banner-description {
+    color: #757575;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/* main section styles */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section-description {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/* about section styles */
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-description {
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.about-info {
+    text-align: center;
+}
+
+.info-title {
+    color: #757575;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/* what i do styles */
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+
+}
+
+.skill-description {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+#i-do-des {
+    padding: 30px 150px;
+}
+
+/* Resume Style */
+.resume-column-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+.resume-container {
+    display: flex;
+    gap: 50px;
+}
+
+.resume-item-title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.resume-item-institute {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.resume-item-description {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+/* download-cv style */
+.download-cv{
+    text-align: center;
+    margin-top: 50px;  
+}
+/* footer */
+footer{
+    display: flex;
+    background: #FFF8F3;
+    margin-top: 100px;
+    gap: 100px;
+    padding: 130px 200px;
+}
+.footer-column{
+    width: 50%;
+}
+.social-links{
+    margin-right: 25px;
+}
+.contact input[type="text"],.contact input[type="email"], textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border: 0;
+    border-radius: 5px;
+    background: #FFF;
+    width: 100%;
+}
